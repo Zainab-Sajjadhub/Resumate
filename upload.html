@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resumate</title>
+    <link rel="stylesheet" href="main.css">
+    <style>
+        .ai-heading {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .ai-heading h1 {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 2.5em;
+            color: #6460AC;
+            margin-bottom: 5px;
+        }
+
+        .ai-heading p {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 1.2em;
+            color: #444;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="header">
+        <a href="index.html" class="logo-link">
+            <h1>Resumate</h1>
+        </a>
+        <div class="header-links">
+            <a href="tips/tips.html">Tips</a>
+            <a href="upload.html">Upload</a>
+        </div>
+    </div>
+
+    <div class="content-area">
+        <div class="ai-heading">
+            <h1>Remy</h1>
+            <p>Your AI Assistant</p>
+        </div>
+        <div class="upload-section">
+            <p>Upload your resume to get personalized feedback and suggestions.</p>
+            <label for="file-upload" class="custom-file-upload">
+                <input type="file" id="file-upload" accept=".pdf, .doc, .docx">
+                Choose File
+            </label>
+        </div>
+    </div>
+
+    <div id="feedback-area">
+        <h2>AI Feedback</h2>
+        <p id="ai-feedback"></p>
+    </div>
+
+    <footer class="footer">
+        <strong>Contact US:</strong>&nbsp;&nbsp;&nbsp;
+        <span>Email: Resumate@gmail.com</span> &nbsp;&nbsp;&nbsp;
+        <span>Phone number: 999-888-7766</span> &nbsp;&nbsp;&nbsp;
+        <span>Address: Drexel University</span> &nbsp;&nbsp;&nbsp;
+        <span>@Resumate</span>
+    </footer>
+
+    <script src="upload.js"></script>
+
+
+</body>
+
+</html>

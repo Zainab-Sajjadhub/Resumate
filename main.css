@@ -1,0 +1,220 @@
+/* Global Styles */
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, sans-serif; /* Consistent font family */
+}
+
+/* Header Styles */
+.header {
+    background-color: #6460AC;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px;
+}
+
+.header h1 {
+    margin: 0;
+    padding: 12px;
+    font-size: 1.5em; /* Consistent font size */
+    cursor: pointer;
+    transition: opacity 0.3s ease;
+}
+
+.logo-link {
+    text-decoration: none;
+    color: white;
+}
+
+.logo-link:hover h1 {
+    opacity: 0.8;
+}
+
+.header-links {
+    display: flex;
+    gap: 30px;
+    margin-left: auto;
+}
+
+.header a {
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    transition: opacity 0.3s ease;
+}
+
+.header a:hover {
+    opacity: 0.8;
+}
+
+/* Footer Styles */
+.footer {
+    background-color: #6460AC;
+    color: white;
+    padding: 10px;
+    text-align: left;
+    font-size: 1em;
+    margin-top: auto;
+}
+
+
+/* Content Area Styles */
+.content-area {
+    width: 80%;
+    margin: 20px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.section {
+    margin-bottom: 30px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+/* AI Question Section */
+.question-container {
+    margin-bottom: 15px;
+}
+
+#user-question {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 10px;
+    resize: vertical;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.ask-button {
+    background-color: #0078D4;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.ask-button:hover {
+    background-color: #0056b3;
+}
+
+.response-container {
+    border: 1px solid #eee;
+    padding: 15px;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+}
+
+/* General Tips Section */
+.tips-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.tips-list li {
+    margin-bottom: 10px;
+    line-height: 1.6;
+}
+
+.tips-list strong {
+    color: #0078D4;
+}
+
+/* Upload Section Styles */
+.upload-section {
+    background-color: #f0f0f0;
+    padding: 80px 20px;
+    border-radius: 15px;
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.upload-section p {
+    margin-bottom: 30px;
+    color: #444;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.custom-file-upload {
+    border: 3px solid #6460AC;
+    display: inline-block;
+    padding: 15px 40px;
+    cursor: pointer;
+    background-color: white;
+    border-radius: 8px;
+    color: #6460AC;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    font-size: 1.1em;
+}
+
+.custom-file-upload:hover {
+    background-color: #6460AC;
+    color: white;
+    transform: translateY(-2px);
+}
+
+.upload-section input[type="file"] {
+    display: none;
+
+}
+
+.img {
+    width: 1500px !important;
+    height: 800px !important;
+}
+
+#feedback-area {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 800px;
+    margin: 20px auto;
+    font-family: Arial, sans-serif;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.feedback-section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+h3 {
+    color: #007bff;
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+li {
+    margin: 5px 0;
+    font-size: 16px;
+}
+
+strong {
+    color: #111111;
+}
